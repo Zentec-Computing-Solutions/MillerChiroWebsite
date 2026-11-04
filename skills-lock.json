@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "forminit-setup": {
+      "source": "forminit/skills",
+      "sourceType": "github",
+      "skillPath": "skills/forminit-setup/SKILL.md",
+      "computedHash": "44f018155ce2b4500f1da2fc522bbc052f25a0d9470f80fc4a240f58277c4fba"
+    }
+  }
+}

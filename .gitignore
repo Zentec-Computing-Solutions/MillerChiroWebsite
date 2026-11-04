@@ -1,0 +1,4 @@
+.source/
+.claude/
+node_modules/
+.preview/
