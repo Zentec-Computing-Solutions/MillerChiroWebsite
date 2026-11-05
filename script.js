@@ -36,7 +36,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
     const field = error?.fieldName ?? /['"]([^'"]+)['"]/.exec(error?.message ?? '')?.[1];
     if (field && FIELD_ERRORS[field]) return FIELD_ERRORS[field];
     if (error?.error === 'TOO_MANY_REQUESTS') return 'Please wait a few seconds and try again.';
-    return 'Your message could not be sent. Please try again, or call Rowan on 021 106 8461.';
+    return 'Your message could not be sent. Please try again, or call Rowan & Drea on 021 106 8461.';
   }
   const form = document.getElementById('contact-form');
   const button = form.querySelector('button[type="submit"]');
@@ -62,7 +62,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
         status.textContent = errorText(error);
         return;
       }
-      status.textContent = 'Thank you — your message has been sent. Rowan will be in touch.';
+      status.textContent = 'Thank you — your message has been sent. Rowan & Drea will be in touch.';
       form.reset();
     } catch (error) {
       console.error('Forminit:', error);
